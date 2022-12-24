@@ -1,1 +1,1 @@
-# python-basic
+Задания по курсу Python-basic
