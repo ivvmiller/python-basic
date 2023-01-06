@@ -34,4 +34,4 @@ murzik.voice()
 kesha = Parrot()
 kesha.voice()
 
-kesha.voice('popka durtak')
+kesha.voice('popka durak')
