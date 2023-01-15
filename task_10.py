@@ -42,7 +42,7 @@ class Search(unittest.TestCase):
 
         # Проверить, что первое изображение неким образом связано с сайтом selenide.org.
         elm = self.drv.find_element(By.CSS_SELECTOR, '#islrg > div.islrc > div:nth-child(2)')
-        assert 'selenide' in elm.text, 'Не правильная картинка'
+        assert 'selenide' in elm.text, 'Неправильная картинка'
 
         # Вернуться в раздел поиска Все
         self.drv.back()
